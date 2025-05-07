@@ -82,6 +82,8 @@ def main():
             case _:
                 print("Invalid Choice.")
 
+    conn.close()
+
 
 if __name__ == "__main__":
     main()
